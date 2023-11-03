@@ -4,11 +4,21 @@ p {
     margin-bottom: 0px;
 }
 
-.thubnail {
-  width: 400px;
-  display: block;
+.video_gird {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
 }
 
+.thubnail {
+  width: 100%;
+}
+
+.video_info_grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
 .Search-bar {
   font-size: 20px;
   margin-left: 2px;
@@ -24,11 +34,6 @@ p {
     margin-bottom: 4px;
 }
 
-.video_pre {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 15px;
-}
 
 .video_title{
     margin-top: 0px;
@@ -39,9 +44,6 @@ p {
     margin-bottom: 13px;
 }
 .channel_pic {
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;
   margin-right: 3px;
 }
 
