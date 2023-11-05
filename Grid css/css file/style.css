@@ -42,6 +42,7 @@ p {
     width: 350px;
     line-height: 22px;
     margin-bottom: 13px;
+    margin-left: 5px;
 }
 .channel_pic {
   margin-right: 3px;
@@ -50,6 +51,7 @@ p {
 .video_info {
   display: inline-block;
   width: 250px;
+  margin-left: 5px;
 }
 
 .profile_pic {
